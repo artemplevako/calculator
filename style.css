@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: scroll;
 }
 
 .operations {
@@ -33,7 +34,7 @@ body {
     gap: 5px;
 }
 
-.operation {
+.operations button {
     flex: 1;
 }
 

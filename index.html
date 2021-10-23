@@ -4,32 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <div class="display">2341</div>
+        <div class="display"></div>
         <div class="operations">
             <button class="operation">+</button>
             <button class="operation">-</button>
             <button class="operation">*</button>
             <button class="operation">/</button>
-            <button class="clear">Clear</button>
+            <button id="clear">Clear</button>
         </div>
         <div class="numpad">
-            <button class="numpad-key">7</button>
-            <button class="numpad-key">8</button>
-            <button class="numpad-key">9</button>
-            <button class="numpad-key">4</button>
-            <button class="numpad-key">5</button>
-            <button class="numpad-key">6</button>
-            <button class="numpad-key">1</button>
-            <button class="numpad-key">2</button>
-            <button class="numpad-key">3</button>
+            <button class="numpad-key digit">7</button>
+            <button class="numpad-key digit">8</button>
+            <button class="numpad-key digit">9</button>
+            <button class="numpad-key digit">4</button>
+            <button class="numpad-key digit">5</button>
+            <button class="numpad-key digit">6</button>
+            <button class="numpad-key digit">1</button>
+            <button class="numpad-key digit">2</button>
+            <button class="numpad-key digit">3</button>
             <button class="numpad-key" style="visibility: hidden"></button>
-            <button class="numpad-key">0</button>
-            <button class="numpad-key">=</button>
+            <button class="numpad-key digit">0</button>
+            <button class="numpad-key" id="equals">=</button>
         </div>
     </div>
 </body>
